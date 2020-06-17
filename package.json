@@ -1,0 +1,37 @@
+{
+	"name": "leadcode-dev",
+	"displayName": "Leadcode Thème",
+	"description": "Beautify thème for html, css, sass, js, ts, jsx, tsx code (extension for Visual Studio Code only)",
+	"version": "1.3.1",
+	"publisher": "LeadcodeDevTheme",
+	"repository": "https://github.com/LeadcodeDev/VSCode-Theme-leadcode.git",
+	"icon": "assets/icon.png",
+	"scripts": {
+		"package": "vsce package"
+	},
+	"bugs": {
+		"url": "https://github.com/LeadcodeDev/VSCode-Theme-leadcode/issues",
+		"email": "baptiste.parmantier.pro@gmail.com"
+	},
+	"iconDefinitions": {
+		"iconPath": "./assets/icon.png"
+	},
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#fff"
+	},
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "LeadcodeDev",
+				"uiTheme": "vs-dark",
+				"path": "./themes/LeadcodeDev-color-theme.json"
+			}
+		]
+	}
+}
