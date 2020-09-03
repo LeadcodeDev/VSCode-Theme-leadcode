@@ -32,7 +32,7 @@
 		},
 		{
 			"name": "Variables",
-			"scope": ["variable", "variable.parameter", "string constant.other.placeholder", "support.constant.color.w3c-standard-color-name.css"],
+			"scope": ["variable", "variable.parameter", "string constant.other.placeholder", "variable.object.property.ts", "support.constant.color.w3c-standard-color-name.css"],
 			"settings": {
 				"foreground": "#bacbe2"
 			}
@@ -42,6 +42,13 @@
 			"scope": ["variable.other.readwrite.alias", "variable.other.constant", "variable.other.readwrite", "variable.other.property"],
 			"settings": {
 				"foreground": "#bacbe2"
+			}
+		},
+		{
+			"name": "variable.other",
+			"scope": ["variable.other.constant.property.ts"],
+			"settings": {
+				"foreground": "#2990cc"
 			}
 		},
 		{
@@ -168,9 +175,9 @@
 		},
 		{
 			"name": "Entity Name Type",
-			"scope": ["entity.name.type.ts"],
+			"scope": ["entity.name.type.ts", "support.type.primitive.ts"],
 			"settings": {
-				"foreground": "#9da7b6"
+				"foreground": "#9098a5"
 			}
 		},
 		{
