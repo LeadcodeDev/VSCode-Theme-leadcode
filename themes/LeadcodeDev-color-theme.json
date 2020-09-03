@@ -160,7 +160,7 @@
 		},
 		{
 			"name": "Entity Name Type",
-			"scope": ["entity.name.type.class", "variable.other.jsdoc"],
+			"scope": ["entity.name.type.class", "variable.other"],
 			"settings": {
 				"foreground": "#008ecf",
 				"fontStyle": "bold"
