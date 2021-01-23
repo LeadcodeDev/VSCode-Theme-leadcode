@@ -1,8 +1,8 @@
 {
 	"name": "leadcode-dev",
 	"displayName": "Leadcode Thème",
-	"description": "Beautify thème for html, css, sass, js, ts, jsx, tsx code (extension for Visual Studio Code only)",
-	"version": "1.4.0",
+	"description": "Beautify thème for html, css, sass, js, ts, jsx, tsx code, go (extension for Visual Studio Code only)",
+	"version": "1.4.3",
 	"publisher": "LeadcodeDevTheme",
 	"repository": "https://github.com/LeadcodeDev/VSCode-Theme-leadcode.git",
 	"icon": "assets/icon.png",

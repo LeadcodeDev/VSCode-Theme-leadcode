@@ -39,7 +39,7 @@
 		},
 		{
 			"name": "variable.other",
-			"scope": ["variable.other.readwrite.alias", "variable.other.constant", "variable.other.readwrite", "variable.other.property"],
+			"scope": ["variable.other.readwrite.alias", "variable.other.constant", "variable.other.readwrite", "variable.other.property", "entity.name.import.go"],
 			"settings": {
 				"foreground": "#bacbe2"
 			}
@@ -53,7 +53,7 @@
 		},
 		{
 			"name": "variable.other",
-			"scope": ["variable.other.object.property", "variable.other.object.php", "variable.other.object.ts"],
+			"scope": ["variable.other.object.property", "variable.other.object.php", "variable.other.object.ts", "source.go"],
 			"settings": {
 				"foreground": "#bacbe2"
 			}
@@ -116,7 +116,15 @@
 		},
 		{
 			"name": "Keyword Control",
-			"scope": ["keyword.control.default", "keyword.control.export", "keyword.control.import", "keyword.control.from"],
+			"scope": [
+				"keyword.control.default",
+				"keyword.control.export",
+				"keyword.control.import",
+				"keyword.control.from",
+				"keyword.import.go",
+				"keyword.type.go",
+				"keyword.package.go"
+			],
 			"settings": {
 				"fontStyle": "italic bold",
 				"foreground": "#008fb3"
@@ -175,7 +183,7 @@
 		},
 		{
 			"name": "Entity Name Type",
-			"scope": ["entity.name.type.ts", "support.type.primitive.ts"],
+			"scope": ["entity.name.type.ts", "support.type.primitive.ts", "keyword.struct.go"],
 			"settings": {
 				"foreground": "#9098a5"
 			}
@@ -215,7 +223,15 @@
 		},
 		{
 			"name": "storage",
-			"scope": ["storage.type", "storage.modifier.async", "keyword.control.flow", "storage.type.function", "storage.type.class", "storage.type.function"],
+			"scope": [
+				"storage.type",
+				"storage.modifier.async",
+				"keyword.control.flow",
+				"storage.type.function",
+				"keyword.function.go.",
+				"storage.type.class",
+				"storage.type.function"
+			],
 			"settings": {
 				"foreground": "#7ccfff"
 			}
@@ -286,7 +302,7 @@
 		},
 		{
 			"name": "variable.other.readwrite",
-			"scope": ["variable.other.readwrite"],
+			"scope": ["variable.other.readwrite", "constant.other.placeholder.go"],
 			"settings": {
 				"foreground": "#7ccfff"
 			}
